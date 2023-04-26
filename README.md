@@ -10,6 +10,10 @@
 npm install --save yvnvsui
 ```
 
+## Buttons
+
+![](ss1.png)
+
 ## Usage
 
 ```jsx
@@ -20,7 +24,15 @@ import 'yvnvsui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <>
+        <Button type='button-1' text='example' />
+        <Button type='button-2' text='example' />
+        <Button type='button-3' text='example' />
+        <Button type='button-4' text='example' />
+        <Button type='button-5' text='example' />
+      </>
+    )
   }
 }
 ```
